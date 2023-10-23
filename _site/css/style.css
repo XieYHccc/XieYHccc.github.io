@@ -1,0 +1,153 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #16161d;
+  background: #fff;
+  letter-spacing: 0.012px;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin: 0 auto;
+}
+
+@media (min-width: 40em) {
+  body {
+    max-width: 40em;
+    font-size: 19px;
+  }
+}
+
+a {
+  color: #16c;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+nav a {
+  color: inherit;
+}
+
+nav {
+  font-size: 95%;
+  padding-bottom: 0.85em;
+}
+
+code {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  letter-spacing: 0;
+  white-space: pre;
+}
+
+:not(pre) > code {
+  font-size: 0.95em;
+  padding: 0px 2px;
+}
+
+pre {
+  font-size: 0.875em;
+  overflow: auto;
+  margin: 1.7em 0;
+  padding: 1em;
+  background: #f5f5f7;
+  border-radius: 10px;
+}
+
+h1, h2, h3, strong {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.3em;
+  line-height: 1.25em;
+  margin-top: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+h3 {
+  font-size: 0.95em;
+}
+
+h2, h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em 0;
+}
+
+footer {
+  font-size: small;
+  margin: 2.5em 0 1.5em 0;
+}
+
+/* img + em {
+  position: relative;
+  top: -1em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: smaller;
+} */
+
+#maincontent {
+  margin-top: 3em;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.125em;
+  margin: 2em 0 0.5em 0;
+}
+
+.blog-year {
+  font-size: 1em;
+}
+
+.blog-posts {
+  display: grid;
+  grid-row-gap: 0.4em;
+  grid-column-gap: 1em;
+  grid-template-columns: auto 4em;
+  margin-bottom: 2em;
+}
+
+.post-entry-date {
+  font-size: small;
+  margin-left: auto;
+  align-self: center;
+}
+
+.inline-logo {
+  margin-top: 0;
+}
+
+@media (min-width: 40em) {
+  .inline-logo {
+    float: right;
+    margin-left: 1.5em;
+  }
+}
+
+ul.flat-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.flat-list li {
+  margin-bottom: 0.5em;
+}

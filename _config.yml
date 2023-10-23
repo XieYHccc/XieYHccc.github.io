@@ -1,0 +1,15 @@
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "YihangXie"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
