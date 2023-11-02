@@ -3,7 +3,7 @@ title: Blog
 ---
 <h1>Blog</h1>
 
-{% assign postsByYear = site.categories.blog | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for group in postsByYear %}
   <h2 class="blog-year">{{ group.name }}</h2>
     <div class="blog-posts">
