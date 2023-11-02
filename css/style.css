@@ -14,10 +14,10 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 35em) {
   body {
-    max-width: 40em;
-    font-size: 19px;
+    max-width: 35em;
+    font-size: 17px;
   }
 }
 
@@ -114,6 +114,14 @@ footer {
   margin: 2em 0 0.5em 0;
 }
 
+
+.post-date {
+  display: block;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: small;
+}
+
 .blog-year {
   font-size: 1em;
 }
@@ -136,7 +144,7 @@ footer {
   margin-top: 0;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 35em) {
   .inline-logo {
     float: right;
     margin-left: 1.5em;
