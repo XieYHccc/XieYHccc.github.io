@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
+  font-family: "Gentium Book Basic", Georgia, Times, serif;
+  line-height: 1.7;
   color: #16161d;
   background: #fff;
   letter-spacing: 0.012px;
@@ -14,10 +14,10 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 37em) {
   body {
-    max-width: 35em;
-    font-size: 17px;
+    max-width: 37em;
+    font-size: 18px;
   }
 }
 
@@ -60,18 +60,24 @@ pre {
 }
 
 h1, h2, h3, strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
+/* Typography styles */
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+} */
+
 h1 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.25em;
   margin-top: 1.5em;
   margin-bottom: 0.25em;
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 h3 {
@@ -109,9 +115,8 @@ footer {
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.125em;
-  margin: 2em 0 0.5em 0;
 }
 
 
