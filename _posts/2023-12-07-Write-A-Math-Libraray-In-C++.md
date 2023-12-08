@@ -1,7 +1,3 @@
-# Write A Math Library In C++
-
-
-
 ## std::array vs C-style array
 
 我在思考选取何种数据结构作为向量和矩阵的底层容器时做了一些调查
