@@ -20,8 +20,19 @@
       &copy;&nbsp;2023&nbsp;Yihang Xie &nbsp;|&nbsp; <a href="yihangxie20001013@gmail.com">E-mail</a>
     </footer>
   </body>
-  <script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
+  {% if page.mathjax %}
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
   </script>
+  <script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.4/tex-chtml.js">
+  </script>
+  {% endif %}
 </html>

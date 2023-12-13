@@ -17,7 +17,10 @@ $$ \forall u,v\in V_1, \forall c\in K $$
 
 都有
 
-$$ f(u+v)=f(u)+f(v) \\ f(cu)=cf(u) $$
+$$
+f(u+v)=f(u)+f(v) \\ 
+f(cu)=cf(u) 
+$$
 
 则称 $f$ 是线性映射。
 
