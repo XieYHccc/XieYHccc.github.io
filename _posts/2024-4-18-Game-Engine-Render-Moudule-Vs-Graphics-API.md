@@ -20,9 +20,9 @@ struct RenderObject {
 游戏引擎还可以抽象一些渲染游戏场景的函数，比如把渲染几何，渲染GUI，渲染背景的逻辑给区分开：
 
 ```c++
-    void DrawGeometry(VkImageView targetView, const DrawContext& context);
-    void DrawImgui(VkImageView targetView, VkExtent2D extent);
-    void DrawBackGround(VkImageView targetView, VkExtent2D extent);
+void DrawGeometry(VkImageView targetView, const DrawContext& context);
+void DrawImgui(VkImageView targetView, VkExtent2D extent);
+void DrawBackGround(VkImageView targetView, VkExtent2D extent);
 ```
 
 开发一个游戏引擎的渲染模块并不等同于重新开发一套渲染API用来渲染游戏画面（理论上也可以，但我真觉得没必要，工作量太大了，大公司可以这样做，比如Unity或者Unreal)。开发者依然需要了解Vulkan API才能进行游戏渲染的开发，但是相比于从零开始写vulkan，游戏引擎为我们提供了很大的便利。
